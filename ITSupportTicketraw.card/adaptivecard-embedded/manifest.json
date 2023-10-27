@@ -1,0 +1,75 @@
+{
+    "_version": "1.17.0",
+    "sap.app": {
+        "id": "adaptivecard.embedded",
+        "type": "card",
+        "title": "Sample of an Adaptive Card with Form",
+        "subTitle": "Sample of an Adaptive Card with Form",
+        "applicationVersion": {
+            "version": "1.0.0"
+        },
+        "shortTitle": "A short title for this Card",
+        "info": "Additional information about this Card",
+        "description": "A long description for this Card",
+        "tags": {
+            "keywords": [
+                "Adaptive",
+                "Card",
+                "Form",
+                "Sample"
+            ]
+        }
+    },
+    "sap.card": {
+        "header": {
+            "title": "Form Card",
+            "subTitle": "Adaptive Card with sap.f.cards.Header",
+            "icon": {
+                "src": "sap-icon://form"
+            }
+        },
+        "type": "AdaptiveCard",
+        "content": {
+            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+            "type": "AdaptiveCard",
+            "version": "1.0",
+            "body": [
+                {
+                    "type": "Input.Text",
+                    "label": "Your Name",
+                    "isRequired": true,
+                    "errorMessage": "Please enter a name",
+                    "placeholder": "Last, First",
+                    "style": "text",
+                    "id": "SimpleVal"
+                },
+                {
+                    "type": "Input.ChoiceSet",
+                    "label": "Select an option",
+                    "id": "ChoiceSetVal",
+                    "style": "compact",
+                    "choices": [
+                        {
+                            "title": "Option 1",
+                            "value": "1"
+                        },
+                        {
+                            "title": "Option 2",
+                            "value": "2"
+                        }
+                    ]
+                },
+                {
+                    "type": "Input.Text",
+                    "label": "Additional Comment",
+                    "placeholder": "Enter your comment here",
+                    "id": "CommentVal"
+                },
+                {
+                    "type": "Input.Submit",
+                    "title": "Submit"
+                }
+            ]
+        }
+    }
+}
