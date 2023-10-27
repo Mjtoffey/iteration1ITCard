@@ -160,7 +160,9 @@
           "label": "Additional Comment",
           "placeholder": "Please describe your issue here:",
           "id": "MultilineVal"
-        },
+        }
+      ],
+      "actions" : [
         {
           "type": "Action.Submit",
           "title": "Submit"
