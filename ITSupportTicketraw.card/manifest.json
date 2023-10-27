@@ -160,11 +160,11 @@
           ]
         },
         {
-          "type": "TextArea",
+          "type": "Input.Text",
           "rows": 4,
           "label": "Additional Comment",
           "placeholder": "Please describe your issue here:",
-          "id": "Comment"
+          "id": "MultiLineVal"
         }
       ],
       "actions" : [
