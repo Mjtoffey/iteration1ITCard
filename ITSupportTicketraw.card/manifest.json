@@ -160,7 +160,7 @@
           "rows": 4,
           "label": "Additional Comment",
           "placeholder": "Please describe your issue here:",
-          "id": "MultilineVal"
+          "id": "Comment"
         }
       ],
       "actions" : [
