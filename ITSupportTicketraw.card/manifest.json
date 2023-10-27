@@ -17,8 +17,8 @@
   },
   "sap.card": {
     "header": {
-      "title": "Form Card",
-      "subTitle": "Adaptive Card with sap.f.cards.Header",
+      "title": "IT Support ticket",
+      "subTitle": "Please fill out the form below to submit an IT support request",
       "icon": {
         "src": "sap-icon://form"
       }
