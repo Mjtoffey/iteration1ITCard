@@ -139,10 +139,10 @@
           "type": "Input.Text",
           "label": "Additional Comment",
           "placeholder": "Please describe your issue here:",
-          "id": "CommentVal"
+          "id": "MultilineVal"
         },
         {
-          "type": "Input.Submit",
+          "type": "Action.Submit",
           "title": "Submit"
         }
       ]
