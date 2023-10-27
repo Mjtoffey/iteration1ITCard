@@ -136,6 +136,26 @@
           "isVisible": "${ChoiceSetVal == '6'}"
         },
         {
+          "type": "Input.ChoiceSet",
+          "label": "Please select that box that best describes the severity of the issue",
+          "id": "SingleSelectVal",
+          "style": "expanded",
+          "choices": [
+            {
+              "title": "Urgent",
+              "value": "1"
+            },
+            {
+              "title": "Not Urget",
+              "value": "2"
+            },
+            {
+              "title": "Not Currently Affecting Work",
+              "value": "3"
+            }
+          ]
+        },
+        {
           "type": "Input.Text",
           "label": "Additional Comment",
           "placeholder": "Please describe your issue here:",
