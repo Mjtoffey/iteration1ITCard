@@ -1,131 +1,151 @@
 {
-    "_version": "1.17.0",
-    "sap.app": {
-        "id": "adaptivecard.embedded",
-        "type": "card",
-        "title": "Sample of an Adaptive Card with Form",
-        "subTitle": "Sample of an Adaptive Card with Form",
-        "applicationVersion": {
-            "version": "1.0.0"
-        },
-        "shortTitle": "A short title for this Card",
-        "info": "Additional information about this Card",
-        "description": "A long description for this Card",
-        "tags": {
-            "keywords": [
-                "Adaptive",
-                "Card",
-                "Form",
-                "Sample"
-            ]
-        }
+  "_version": "1.17.0",
+  "sap.app": {
+    "id": "adaptivecard.embedded",
+    "type": "card",
+    "title": "TEST IT Support Card (1st iteration)",
+    "subTitle": "TEST IT Support Card (1st iteration)",
+    "applicationVersion": {
+      "version": "1.0.0"
     },
-    "sap.card": {
-        "header": {
-            "title": "Form Card",
-            "subTitle": "Adaptive Card with sap.f.cards.Header",
-            "icon": {
-                "src": "sap-icon://form"
-            }
-        },
-        "type": "AdaptiveCard",
-        "content": {
-            "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-            "type": "AdaptiveCard",
-            "version": "1.0",
-            "body": [
-                {
-                    "type": "Input.Text",
-                    "label": "Your Name",
-                    "isRequired": true,
-                    "errorMessage": "Please enter a name",
-                    "placeholder": "Last, First",
-                    "style": "text",
-                    "id": "SimpleVal"
-                },
-                {
-                    "type": "Input.ChoiceSet",
-                    "label": "Select the category that most describes your issue",
-                    "id": "ChoiceSetVal",
-                    "style": "compact",
-                    "choices": [
-                        {
-                            "title": "Vision",
-                            "value": "1"
-                        },
-                        {
-                            "title": "Phones",
-                            "value": "2"
-                        }
-                        {
-                            "title": "Bluebeam",
-                            "value": "3"
-                        },
-                        {
-                            "title": "Adobe",
-                            "value": "4"
-                        }
-                        {
-                            "title": "Engineering Software",
-                            "value": "5"
-                        },
-                        {
-                            "title": "iPad",
-                            "value": "6"
-                        }
-                        {
-                            "title": "Can't Dwonload Software",
-                            "value": "7"
-                        },
-                        {
-                            "title": "Need New Software",
-                            "value": "8"
-                        }
-                        {
-                            "title": "Can't Log In",
-                            "value": "9"
-                        },
-                        {
-                            "title": "Microsoft",
-                            "value": "10"
-                        }
-                        {
-                            "title": "SuccessFactors",
-                            "value": "11"
-                        },
-                        {
-                            "title": "WorkZone",
-                            "value": "12"
-                        }
-                        {
-                            "title": "Computer Preformance",
-                            "value": "13"
-                        },
-                        {
-                            "title": "VPN issues",
-                            "value": "14"
-                        }
-                        {
-                            "title": "Internet",
-                            "value": "15"
-                        },
-                        {
-                            "title": "Servers",
-                            "value": "16"
-                        }
-                    ]
-                },
-                {
-                    "type": "Input.Text",
-                    "label": "Additional Comment",
-                    "placeholder": "Enter your comment here",
-                    "id": "CommentVal"
-                },
-                {
-                    "type": "Input.Submit",
-                    "title": "Submit"
-                }
-            ]
-        }
+    "shortTitle": "A short title for this Card",
+    "info": "Additional information about this Card",
+    "description": "A long description for this Card",
+    "tags": {
+      "keywords": ["Adaptive", "Card", "Form", "Sample"]
     }
+  },
+  "sap.card": {
+    "header": {
+      "title": "Form Card",
+      "subTitle": "Adaptive Card with sap.f.cards.Header",
+      "icon": {
+        "src": "sap-icon://form"
+      }
+    },
+    "type": "AdaptiveCard",
+    "content": {
+      "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+      "type": "AdaptiveCard",
+      "version": "1.0",
+      "body": [
+        {
+          "type": "Input.Text",
+          "label": "Your Name",
+          "isRequired": true,
+          "errorMessage": "Please enter a name",
+          "placeholder": "Last, First",
+          "style": "text",
+          "id": "SimpleVal"
+        },
+        {
+          "type": "Input.ChoiceSet",
+          "label": "Select the category that most describes your issue",
+          "id": "ChoiceSetVal",
+          "style": "compact",
+          "choices": [
+            {
+              "title": "Deltek Vision",
+              "value": "1"
+            },
+            {
+              "title": "Phones",
+              "value": "2"
+            },
+            {
+              "title": "Bluebeam",
+              "value": "3"
+            },
+            {
+              "title": "Adobe",
+              "value": "4"
+            },
+            {
+              "title": "Engineering Software",
+              "value": "5"
+            },
+            {
+              "title": "iPad",
+              "value": "6"
+            },
+            {
+              "title": "Can't Dwonload Software",
+              "value": "7"
+            },
+            {
+              "title": "Need New Software",
+              "value": "8"
+            },
+            {
+              "title": "Can't Log In",
+              "value": "9"
+            },
+            {
+              "title": "Microsoft",
+              "value": "10"
+            },
+            {
+              "title": "SuccessFactors",
+              "value": "11"
+            },
+            {
+              "title": "WorkZone",
+              "value": "12"
+            },
+            {
+              "title": "Computer Preformance",
+              "value": "13"
+            },
+            {
+              "title": "VPN issues",
+              "value": "14"
+            },
+            {
+              "title": "Internet",
+              "value": "15"
+            },
+            {
+              "title": "Servers",
+              "value": "16"
+            }
+          ]
+        },
+        {
+          "type": "Input.ChoiceSet",
+          "label": "Select iPad Model",
+          "id": "iPadModel",
+          "style": "compact",
+          "choices": [
+            {
+              "title": "iPad Forms App",
+              "value": "iPadForms"
+            },
+            {
+              "title": "iPad Engineering App",
+              "value": "iPadEngineering"
+            },
+            {
+              "title": "iPad Other Apps",
+              "value": "iPadOthers"
+            },
+            {
+              "title": "iPad General Use Issues",
+              "value": "iPadMisc"
+            }
+          ],
+          "isVisible": "${ChoiceSetVal == '6'}"
+        },
+        {
+          "type": "Input.Text",
+          "label": "Additional Comment",
+          "placeholder": "Please describe your issue here:",
+          "id": "CommentVal"
+        },
+        {
+          "type": "Input.Submit",
+          "title": "Submit"
+        }
+      ]
+    }
+  }
 }
