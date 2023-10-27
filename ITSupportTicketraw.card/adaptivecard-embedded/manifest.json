@@ -45,17 +45,73 @@
                 },
                 {
                     "type": "Input.ChoiceSet",
-                    "label": "Select an option",
+                    "label": "Select the category that most describes your issue",
                     "id": "ChoiceSetVal",
                     "style": "compact",
                     "choices": [
                         {
-                            "title": "Option 1",
+                            "title": "Vision",
                             "value": "1"
                         },
                         {
-                            "title": "Option 2",
+                            "title": "Phones",
                             "value": "2"
+                        }
+                        {
+                            "title": "Bluebeam",
+                            "value": "3"
+                        },
+                        {
+                            "title": "Adobe",
+                            "value": "4"
+                        }
+                        {
+                            "title": "Engineering Software",
+                            "value": "5"
+                        },
+                        {
+                            "title": "iPad",
+                            "value": "6"
+                        }
+                        {
+                            "title": "Can't Dwonload Software",
+                            "value": "7"
+                        },
+                        {
+                            "title": "Need New Software",
+                            "value": "8"
+                        }
+                        {
+                            "title": "Can't Log In",
+                            "value": "9"
+                        },
+                        {
+                            "title": "Microsoft",
+                            "value": "10"
+                        }
+                        {
+                            "title": "SuccessFactors",
+                            "value": "11"
+                        },
+                        {
+                            "title": "WorkZone",
+                            "value": "12"
+                        }
+                        {
+                            "title": "Computer Preformance",
+                            "value": "13"
+                        },
+                        {
+                            "title": "VPN issues",
+                            "value": "14"
+                        }
+                        {
+                            "title": "Internet",
+                            "value": "15"
+                        },
+                        {
+                            "title": "Servers",
+                            "value": "16"
                         }
                     ]
                 },
